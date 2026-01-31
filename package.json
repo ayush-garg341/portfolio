@@ -17,20 +17,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d _site"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tylerMRoderick/fernfolio-11ty-template"
-  },
   "author": {
-    "name": "Tyler M. Roderick",
-    "email": "troderick@protonmail.com",
-    "url": "https://www.tylerroderick.com/"
+    "name": "Ayush Garg",
+    "email": "gargayush341@gmail.com"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tylerMRoderick/fernfolio-11ty-template/issues"
-  },
-  "homepage": "https://github.com/tylerMRoderick/fernfolio-11ty-template",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^2.0.1",
