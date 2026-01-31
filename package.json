@@ -14,7 +14,7 @@
     "build:eleventy": "eleventy",
     "postbuild": "postcss _site/assets/css/*.css -u autoprefixer cssnano -r --no-map",
     "clean": "rimraf './_site'",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d _site"
   },
   "repository": {
     "type": "git",
