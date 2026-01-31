@@ -1,6 +1,8 @@
 let markdownIt = require('markdown-it');
 let anchor = require('markdown-it-anchor');
 const Image = require('@11ty/eleventy-img');
+const path = require('path');
+const pathPrefix = process.env.PATH_PREFIX || '/portfolio/';
 
 // Customize Markdown library and settings
 let markdown = markdownIt({
@@ -53,7 +55,7 @@ markdown.renderer.rules.image = function (tokens, idx) {
       .concat(widths.map((w) => w * 2)) // generate 2x sizes
       .filter((v, i, s) => s.indexOf(v) === i), // dedupe
     formats: ['webp', 'jpeg'],
-    urlPath: '/assets/img/',
+    urlPath: `${pathPrefix}/assets/img/`,
     outputDir: './_site/assets/img/',
   };
 

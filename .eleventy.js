@@ -43,6 +43,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig(browserSyncConfig);
 
   return {
+    pathPrefix: "/portfolio/",
     templateFormats: ['md', 'njk', 'html'],
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
