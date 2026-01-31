@@ -1,7 +1,8 @@
 {
-  "name": "fernfolio-11ty-template",
+  "name": "personal-portfolio-site",
   "version": "1.0.0",
   "description": "The super simple portfolio template built with Eleventy and Netlify CMS",
+  "homepage": "https://ayush-garg341.github.io/portfolio",
   "scripts": {
     "start": "cross-env npm-run-all build:sass --parallel watch:*",
     "build": "cross-env npm-run-all build:sass build:scripts build:eleventy",
@@ -12,7 +13,8 @@
     "watch:eleventy": "eleventy --serve --incremental",
     "build:eleventy": "eleventy",
     "postbuild": "postcss _site/assets/css/*.css -u autoprefixer cssnano -r --no-map",
-    "clean": "rimraf './_site'"
+    "clean": "rimraf './_site'",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,7 @@
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.12",
     "esbuild": "^0.14.53",
+    "gh-pages": "^6.1.1",
     "html-minifier": "^4.0.0",
     "luxon": "^1.25.0",
     "markdown-it": "^13.0.1",
