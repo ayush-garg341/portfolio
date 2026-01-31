@@ -4,7 +4,7 @@
       {% for project in projects %}
         <div class="project-card" {% if project.url == url %} data-current="current item"{% endif %}>
           <h4>
-            <a class="project-card__title" href="{{ project.url | url }}">
+            <a class="project-card__title" href="{{ project.data.redirect }}" target="_blank">
               {% if project.data.emoji %}
                 <span class="project-card__emoji">{{ project.data.emoji }}</span>
               {% endif %}
@@ -25,7 +25,7 @@
               {% for tag in project.data.tags %}
                 {%- if tag != "project" -%}
                   {% set tagUrl %}/project-tags/{{ tag }}/{% endset %}
-                <a class="project-card__tag tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                <a class="project-card__tag tag" rel="tag">{{ tag }}</a>
                 {%- endif -%}
               {% endfor %}
             </p>

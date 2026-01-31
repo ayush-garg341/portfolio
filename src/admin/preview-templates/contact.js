@@ -15,7 +15,7 @@ const Contact = createClass({
         ${this.props.widgetFor('body')}
 
         <!-- Contact Form Placeholder (for illustrative purposes) -->
-        <form class="contact-form" name="contact">
+        <form class="contact-form" name="contact" action="https://formspree.io/f/mbdyelow" method="POST">
           <label for="name">Name</label>
           <input
             type="text"

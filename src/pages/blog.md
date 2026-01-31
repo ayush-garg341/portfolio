@@ -1,7 +1,7 @@
 ---
 layout: blog.njk
 title: Articles
-date: 2017-01-01
+date: 2026-31-01
 pagination:
   data: collections.post
   size: 20

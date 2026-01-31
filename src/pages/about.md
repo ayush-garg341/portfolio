@@ -1,31 +1,56 @@
 ---
-title: About Me
+title: 👋 About Me
 subtitle: ""
 metaDescription: This page is all about me
-date: 2017-01-01T00:00:00.000Z
+date: 2026-31-01T00:00:00.000Z
 permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
 ---
 
-### What is Fernfolio?
-An [Eleventy](https://www.11ty.io/) theme designed to simplify the process of creating a beautiful portfolio and blog. Tightly integrated with [Netlify CMS](https://www.netlifycms.org/) for flexible, Git-powered content management.
+I'm a **software engineer with a strong systems and cybersecurity bent**, driven by curiosity about how software behaves *beneath* the abstractions.
 
-### Why create this?
+I enjoy working close to the operating system and the network - where **performance, correctness, and security collide**. My work often involves backend systems, Linux internals, and networking, with a constant focus on understanding *how data actually moves*, *where it can break*, and *how it can be abused*.
 
-**Reason #1:** I wanted a portfolio that was simple, fast, accessible, and integrated with a git-powered cms. Existing templates didn't perfectly fit my needs, so I decided to build my own template.
+A large part of my interest lies in **practical cybersecurity**. I spend time exploring packet flow, ARP behavior, routing, firewall rule evaluation (UFW / iptables), and traffic inspection using tools like Wireshark and Scapy. This hands-on exposure helps me reason clearly about attack surfaces, trust boundaries, and the real-world effectiveness of security controls.
 
-**Reason #2:** I wanted to learn more about [Eleventy](https://www.11ty.dev/) and static site generators in general. Building Fernfolio was a good excuse to dive deeper on that topic.
+Rather than treating security as a separate domain, I see it as a **systems property** - tightly coupled with architecture, concurrency, and performance. I like asking uncomfortable but important questions:
+- What latency does deep packet inspection introduce?
+- Where do firewalls silently fail?
+- How do race conditions and async code affect authorization?
+- What assumptions does this system make about trust?
 
-### How do I edit content?
-Once your site is deployed and configured, add `/admin` to the end of the url (not using localhost) and hit refresh. From there, you should be able to login and see see the content management dashboard. You should be able to change most content here (e.g. page text, images, logo, articles, projects, etc.).
+My engineering work spans:
+- **Backend systems** in Python, Go and PHP  
+- **Concurrency models** (threads, multiprocessing, async runtimes)
+- **Low-level performance exploration** (custom I/O, caching layers)
+- **Infrastructure & service hardening** (Nginx, systemd, permissions, logging)
+- **Developer tooling** including Neovim plugins and automation utilities
 
-### Further customizations
-If you want to take your customizations further, you will need to modify the project source code. Some customizations, like changing theme colors and fonts, are straightforward (those can be modified in the `variables.scss` file). Other customizations will require more in-depth solutions.
+I build projects to **understand fundamentals**, not to chase trends. Many of my side projects start as experiments - packet sniffers, firewall-like prototypes, reverse indexes, sync tools - and evolve into something more robust as I learn where the real complexity lies.
 
-If you get stuck or just have a question, feel free to create a [Github issue](https://github.com/TylerMRoderick/fernfolio-11ty-template/issues) and I will try to point you in the right direction.
+Outside of coding, I document insights, share technical learnings, and continuously refine my mental models of systems under load - both accidental and adversarial.
 
-Thanks for checking out Fernfolio 👋 - [Tyler M. Roderick](https://www.tylerroderick.com/)
+If you're interested in **systems engineering, backend infrastructure, or real-world cybersecurity**, you'll probably find something here worth exploring.
 
-![Fern in Hand](/src/assets/img/fern-forest.jpeg "Fern in Hand")
+---
+
+## 🔐 Cybersecurity Interests
+- Network fundamentals: ARP, routing, packet flow
+- Traffic analysis & packet crafting
+- Firewall behavior & rule design
+- Access control flaws & authorization boundaries
+- Linux service hardening & permissions
+- Security vs performance trade-offs
+
+---
+
+## 🔧 Tools & Technologies
+- **Languages:** Python, C, Go, PHP
+- **Systems:** Linux, networking, concurrency
+- **Security:** Wireshark, Scapy, UFW, iptables
+- **Datastores:** SQL, Redis
+- **Queues:** Kafka
+- **Infra & Tooling:** Nginx, Docker, systemd, Neovim
+- **Principles:** SOLID, explicit design, simplicity over cleverness

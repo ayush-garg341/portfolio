@@ -12,7 +12,6 @@ const Home = createClass({
     return html`
       <main>
         <div class="home-page">
-          <div class="home-page__bg-square"></div>
 
           <!-- Hero -->
           <div class="hero">
