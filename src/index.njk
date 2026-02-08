@@ -11,6 +11,9 @@ section: home
       {% if home.body %}
         <div class="hero__body">{{ home.body | markdown | safe }}</div>
       {% endif %}
+      <div class="hero__body">
+      More about me <a href="/portfolio/about/">here</a>
+      </div>
     </div>
     <div class="hero__col">
       {% image

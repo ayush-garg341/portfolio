@@ -11,6 +11,8 @@ eleventyNavigation:
 
 I'm a **software engineer with a strong systems and cybersecurity bent**, driven by curiosity about how software behaves *beneath* the abstractions.
 
+A few ( 3-4 ) years ago, I made a conscious decision to level up professionally. What started as curiosity turned into a deep interest in backend engineering, networking, and system design and I've been building, breaking, and learning ever since.
+
 I enjoy working close to the operating system and the network - where **performance, correctness, and security collide**. My work often involves backend systems, Linux internals, and networking, with a constant focus on understanding *how data actually moves*, *where it can break*, and *how it can be abused*.
 
 A large part of my interest lies in **practical cybersecurity**. I spend time exploring packet flow, ARP behavior, routing, firewall rule evaluation (UFW / iptables), and traffic inspection using tools like Wireshark and Scapy. This hands-on exposure helps me reason clearly about attack surfaces, trust boundaries, and the real-world effectiveness of security controls.
@@ -30,7 +32,9 @@ My engineering work spans:
 
 I build projects to **understand fundamentals**, not to chase trends. Many of my side projects start as experiments - packet sniffers, firewall-like prototypes, reverse indexes, sync tools - and evolve into something more robust as I learn where the real complexity lies.
 
-Outside of coding, I document insights, share technical learnings, and continuously refine my mental models of systems under load - both accidental and adversarial.
+Outside of coding, I document insights, share technical learnings on X, and continuously refine my mental models of systems under load - both accidental and adversarial.
+
+In free time, I spent my time building projects in C, close to operating system and networking. Currently building a flow to reduce context switch using fastAPI and svelte.
 
 If you're interested in **systems engineering, backend infrastructure, or real-world cybersecurity**, you'll probably find something here worth exploring.
 
