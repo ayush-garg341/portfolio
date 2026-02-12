@@ -6,7 +6,7 @@
         class="article-card {% if show_tags %}article-card--tags{% endif %}"
         {% if article.url == url %} data-current="current item"{% endif %}
       >
-        <a class="article-card__link" href="{{ article.data.redirect | url }}" target="_blank">
+        <a class="article-card__link" href="{{ article.url | url }}">
           <h5 class="article-card__title">{{ article.data.title }}</h5>
           {% if article.data.summary %}
             <p class="article-card__summary">
