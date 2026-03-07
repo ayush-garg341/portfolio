@@ -149,6 +149,12 @@ Local-first gives:
 - faster iteration
 - It also aligns with how developers actually work: on their own machines.
 
+**Why Desktop app instead of browser extension?**
+This could have been built as a browser extension as well. But I didn't build it that way. Browser extension:
+- Store credentials in local storage
+- LocalStorage is vulnerable to XSS
+- For API keys, that can be misused a lot, local storage is not a good option.
+
 **Technical Challenges**
 Some of the more interesting problems:
 - Wiring global OS hotkeys through Rust into a web UI
